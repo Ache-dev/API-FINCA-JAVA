@@ -63,12 +63,6 @@ mvn clean install
 
 Desde tu IDE, ejecuta la clase principal: `ReservasFincasApplication.java`, o desde la terminal:
 
-Con el wrapper:
-
-```bash
-./mvnw spring-boot:run
-```
-
 Con Maven:
 
 ```bash
