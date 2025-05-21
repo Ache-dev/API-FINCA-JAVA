@@ -16,7 +16,7 @@ public class MunicipioController {
     @Autowired
     MunicipioService _MunicipioService;
 
-    @GetMapping("/")
+    @GetMapping("")
     public ArrayList<Municipio> GetAll() {
         return _MunicipioService.ListarMunicipios();
     }

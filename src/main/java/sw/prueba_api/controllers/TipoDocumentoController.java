@@ -16,7 +16,7 @@ public class TipoDocumentoController {
     @Autowired
     TipoDocumentoService _TipoDocumentoService;
 
-    @GetMapping("/")
+    @GetMapping("")
     public ArrayList<TipoDocumento> GetAll() {
         return _TipoDocumentoService.ListarTipoDocumentos();
     }

@@ -16,7 +16,7 @@ public class ImagenController {
     @Autowired
     ImagenService _ImagenService;
 
-    @GetMapping("/")
+    @GetMapping("")
     public ArrayList<Imagen> GetAll() {
         return _ImagenService.ListarImagenes();
     }

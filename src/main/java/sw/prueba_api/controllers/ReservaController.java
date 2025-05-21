@@ -16,7 +16,7 @@ public class ReservaController {
     @Autowired
     ReservaService _ReservaService;
 
-    @GetMapping("/")
+    @GetMapping("")
     public ArrayList<Reserva> GetAll() {
         return _ReservaService.ListarReservas();
     }

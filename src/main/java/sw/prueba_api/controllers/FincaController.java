@@ -22,7 +22,7 @@ public class FincaController {
     @Autowired
     FincaService _FincaService;
 
-    @GetMapping("/")
+    @GetMapping("")
     public ArrayList<Finca> GetAll(){
         return _FincaService.ListarFincas();
     }

@@ -16,7 +16,7 @@ public class UsuarioController {
     @Autowired
     UsuarioService _UsuarioService;
 
-    @GetMapping("/")
+    @GetMapping("")
     public ArrayList<Usuario> GetAll() {
         return _UsuarioService.ListarUsuarios();
     }
